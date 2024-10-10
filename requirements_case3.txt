@@ -1,0 +1,10 @@
+html5lib
+pandas
+streamlit
+numpy
+matplotlib
+plotly
+folium
+geopandas
+pydeck
+branca
