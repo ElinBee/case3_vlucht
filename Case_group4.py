@@ -1,4 +1,14 @@
-
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+import plotly.graph_objects as go
+import folium
+import json
+from difflib import get_close_matches
+import geopandas as gpd
+import pydeck as pdk
+import math
+from branca.element import MacroElement
 
 df1 = pd.read_csv('schedule_airport.csv')
 df2 = pd.read_csv('airports-extended-clean.csv', delimiter=';')
